@@ -6,10 +6,6 @@ import { init, send } from "@emailjs/browser"
 
 const ContactMe = () => {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
-
 
 
     const serviceId = 'service_1rhbtsq'; // Replace with your EmailJS service ID

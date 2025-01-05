@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import AboutMe from "./componets/AboutMe";
 import Skills from "./componets/Skills";
 import Projects from "./componets/Projects";

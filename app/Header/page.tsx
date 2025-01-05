@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from "react";
-
+import Link from "next/link"; // Import Link from next/link
 function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,39 +13,39 @@ function Header() {
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 {/* Branding */}
                 <div className="text-2xl font-bold">
-                    <a href="/" className="hover:underline">
+                    <Link href="/" className="hover:underline">
                         Saidimu Stephen
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Desktop Navigation */}
                 <nav className="hidden md:flex space-x-6 text-sm font-medium">
-                    <a
+                    <Link
                         href="#about"
                         className="hover:underline hover:text-blue-400 transition"
                     >
                         About
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="#projects"
                         className="hover:underline hover:text-blue-400 transition"
                     >
                         Projects
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="#contact"
                         className="hover:underline hover:text-blue-400 transition"
                     >
                         Contact
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         href="https://github.com/Saidimu-Stephen"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:underline hover:text-blue-400 transition"
                     >
                         GitHub
-                    </a>
+                    </Link>
                 </nav>
 
                 {/* Mobile Menu Button */}

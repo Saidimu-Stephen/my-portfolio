@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPython, FaJava, FaJsSquare, FaDatabase, FaTools } from 'react-icons/fa';
+import { FaPython, FaDatabase, FaTools } from 'react-icons/fa';
 
 const Skills = () => {
     return (
